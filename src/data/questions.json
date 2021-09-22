@@ -1,0 +1,58 @@
+{
+  "name": "Spit or Swallow - Card Game Questions",
+  "version": "0.1.0",
+  "questions": [
+    "Skini 3 komada odjeće ili piješ 3",
+    "Pokaži kako izgleda kad svršavaš ili piješ 1",
+    "Nazovi bivšu i reci da se želiš pomiriti ili piješ 2",
+    "Nazovi partnera i reci da si opet napravio sranje ili piješ 3",
+    "Izvali ko ti je simpatija ili piješ 1",
+    "Pošalji poruku simpatiji ili piješ 2",
+    "Pošalji poruku bivšoj ili piješ 2",
+    "Pošalji poruku nasumičnom broju ili piješ 2",
+    "Šapni nešto bezobrazno osobi desno od sebe ili piješ 1",
+    "Pretvaraj se da si u vezi sa igračem prije sebe jedan krug ili oboje pijete po 2",
+    "Postavi nešto sramotno ili bezobrazno na svoj story ili piješ 2",
+    "Izjavi nešto sramotno o sebi ili piješ 2",
+    "Ispričaj jednu svoju seksualnu fantaziju ili piješ 3",
+    "Odglumi svoju omiljenu pozu u seksu ili piješ 2",
+    "Zavrti imenik na jedan kontakt i neko od učesnika odluči da li ćeš mu se javiti ili ga obrisati ili piješ 3",
+    "Poželi želju",
+    "Biraš ko će skinuti jedan dio odjeće",
+    "Biraš ko pije",
+    "Biraš ko pije 3",
+    "Onaj preko puta tebe pije",
+    "Svi piju!",
+    "Ostali biraju šta ćeš ti skinuti ili piješ 3",
+    "Ostali biraju kome ćeš poslati bezobraznu poruku ili piješ 2",
+    "Nazovi zadnju osobu na listi poziva i reci im da znaš njihovu tajnu ili piješ 3",
+    "Poljubi igrača lijevo od sebe ili piješ 2",
+    "Poljubi igrača nakon sebe ili piješ 2",
+    "Izaberi jednu osobu istog pola s kojom bi spavao ili piješ 2",
+    "Svi muški piju",
+    "Sve žene piju",
+    "Ajmo malo na drugu stranu",
+    "Ostali biraju kako se zoveš. Ko te nazove pogrešnim imenom pije",
+    "Ti si od sad Tatjana. Ko te nazove pogrešnim imenom pije",
+    "Ti si od sad Sait. Ko te nazove pogrešnim imenom pije",
+    "Ajmo 10 čučnjeva ili piješ 2",
+    "Ajmo 10 trbušnjaka ili piješ 2",
+    "Ajmo 5 sklekova ili piješ 2",
+    "Ajmo 5 zgibova ili piješ 2",
+    "Jeb’o sve, piješ 5!",
+    "Imaš sreće. Preskoči krug, otiđi u wc ili popij vode, trebaće ti za kasnije",
+    "Uradićeš ono što zadesi igrača nakon tebe"
+  ],
+  "categories": {
+    "names": [
+      "Pijanska",
+      "Romantična",
+      "Seksualna",
+      "Pizdarija"
+    ]
+  },
+  "languages": {
+    "en": "English",
+    "sr": "Serbian"
+  }
+}
