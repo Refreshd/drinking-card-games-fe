@@ -1,6 +1,4 @@
 {
-  "name": "Spit or Swallow - Card Game Questions",
-  "version": "0.1.0",
   "questions": [
     "Skini 3 komada odjeće ili piješ 3",
     "Pokaži kako izgleda kad svršavaš ili piješ 1",
@@ -42,17 +40,5 @@
     "Jeb’o sve, piješ 5!",
     "Imaš sreće. Preskoči krug, otiđi u wc ili popij vode, trebaće ti za kasnije",
     "Uradićeš ono što zadesi igrača nakon tebe"
-  ],
-  "categories": {
-    "names": [
-      "Pijanska",
-      "Romantična",
-      "Seksualna",
-      "Pizdarija"
-    ]
-  },
-  "languages": {
-    "en": "English",
-    "sr": "Serbian"
-  }
+  ]
 }

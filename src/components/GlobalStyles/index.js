@@ -1,22 +1,32 @@
 import { createGlobalStyle } from "styled-components";
+import { COLORS, FONTSIZES, SIZES } from "../../constants/styles";
 
 const GlobalStyles = createGlobalStyle`
   * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html,
+  body {
+    min-height: 100vh;
+  }
+
+  html {
+    font-size: ${SIZES[1]}px;
   }
 
   body {
     margin: 0;
+    color: ${COLORS.brandWhite};
+    font-size: ${FONTSIZES.base}rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
+    background-color: ${COLORS.brandBlack};
   }
 `
 
