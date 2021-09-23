@@ -1,8 +1,15 @@
 import styled from "styled-components";
 
-const QuestionTitle = styled.h1`
+export const RandomQuestionWrapper = styled.main`
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const QuestionTitle = styled.h1`
   max-width: 75%;
-  margin: 0 0 2rem 0;
   color: #ffffff;
   font-size: 2rem;
   text-align: center;
@@ -12,5 +19,3 @@ const QuestionTitle = styled.h1`
     max-width: 50%;
   }
 `;
-
-export default QuestionTitle;

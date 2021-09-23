@@ -1,32 +1,24 @@
 import { useState, useEffect } from "react";
-import data from "../../data/questions.json";
 import Button from "../Button/styles";
-import QuestionTitle from "./styles";
-
-const testData = [
-  "pitanje 1",
-  "pitanje 2",
-  "pitanje 3",
-  "pitanje 4",
-  "pitanje 5",
-  "pitanje 6",
-  "pitanje 7"
-]
+import { QuestionTitle, RandomQuestionWrapper } from "./styles";
+import data from "../../data/questions.json";
+import Footer from "../Layout/Footer";
 
 const RandomQuestions = () => {
   const questionsArray = data.questions;
-  const questionsLength = questionsArray.length;
-  const randomNumberFromList = Math.floor(Math.random() * (questionsLength - 0) + 0);
-  
-  const [randomNumber, setRandomNumber] = useState(randomNumberFromList);
+  const questionsLength = questionsArray.length;  
+  const [question, setQuestion] = useState(null)
+
+  function randomQuestionNumber() {
+    return Math.floor(Math.random() * (questionsLength - 0) + 0);
+  }
 
   function showQuestion() {
-    return questionsArray[randomNumber]
+    return questionsArray[randomQuestionNumber()]
   }
 
   function getRanodomQuestion() {
-    console.log('kako ovo radi?')
-    showQuestion()
+    setQuestion(showQuestion())
   }
 
   useEffect(() => {
@@ -35,8 +27,13 @@ const RandomQuestions = () => {
 
   return (
     <>
-      <QuestionTitle>{showQuestion()}</QuestionTitle>
-      <Button>Daj novo pitanje</Button>
+      <RandomQuestionWrapper>
+        <QuestionTitle>{question}</QuestionTitle>
+      </RandomQuestionWrapper>
+
+      <Footer>
+        <Button onClick={getRanodomQuestion}>Daj novo pitanje</Button>
+      </Footer>
     </>
   )
 }
