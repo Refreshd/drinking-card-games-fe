@@ -23,7 +23,7 @@ const RandomQuestions = () => {
 
   useEffect(() => {
     getRanodomQuestion();
-  }, []);
+  });
 
   return (
     <>
