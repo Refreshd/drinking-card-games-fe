@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { COLORS, SCREENS } from "../../constants/styles";
 
 export const RandomQuestionWrapper = styled.main`
   display: flex;
@@ -10,11 +11,11 @@ export const RandomQuestionWrapper = styled.main`
 
 export const QuestionTitle = styled.h1`
   max-width: 75%;
-  color: #ffffff;
+  color: ${COLORS.brandWhite};
   font-size: 2rem;
   text-align: center;
 
-  @media (min-width: 1024px) {
+  @media (min-width: ${SCREENS.desktop}) {
     font-size: 3rem;
     max-width: 50%;
   }

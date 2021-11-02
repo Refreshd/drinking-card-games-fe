@@ -14,10 +14,12 @@ const GlobalStyles = createGlobalStyle`
   }
 
   html {
+    min-height: -webkit-fill-available;
     font-size: ${SIZES[1]}px;
   }
 
   body {
+    min-height: -webkit-fill-available;
     margin: 0;
     color: ${COLORS.brandWhite};
     font-size: ${FONTSIZES.base}rem;

@@ -33,7 +33,7 @@ const RandomQuestions = () => {
       </RandomQuestionWrapper>
 
       <Footer>
-        <Button onClick={getRanodomQuestion}>Daj novo pitanje</Button>
+        <Button color="primary" onClick={getRanodomQuestion}>Daj novo pitanje</Button>
       </Footer>
     </>
   )

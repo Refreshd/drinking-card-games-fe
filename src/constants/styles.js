@@ -1,7 +1,16 @@
 export const COLORS = {
   brandBlack: '#222',
   brandWhite: '#eee',
-  primary: 'rebeccapurple',
+  brandPrimary: 'tomato',
+  brandSecondary: '#ffff66',
+  black50: 'rgba(0, 0, 0, 0.5)'
+};
+
+export const SCREENS = {
+  mobileSm: '375px',
+  mobileMd: '768px',
+  mobile: '1024px',
+  desktop: '1025px'
 };
 
 export const FONTS = {

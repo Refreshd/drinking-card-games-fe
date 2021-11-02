@@ -1,6 +1,12 @@
 {
   "questions": [
-    "Skini komad odjeće ili piješ 2",
+    {
+      "id": 0,
+      "level": 2,
+      "text": "Skini komad odjeće",
+      "language": "sr"
+    },
+
     "Pokaži kako izgleda kad svršavaš ili piješ 1",
     "Nazovi bivšu i reci da se želiš pomiriti ili piješ 2",
     "Nazovi partnera i reci da si opet napravio sranje ili piješ 3",
@@ -66,7 +72,7 @@
     "Igraču preko puta sebe skini dio odjeće ili oboje pijete 1",
     "Igrač prije tebe te časti grickalicom - ustima!",
     "Dobijaš ples u krilu od igrača po želji ili on pije 2",
-    "Piješ iz pupka igrača nakon sebe ili piješ 1",
+    "Piješ iz nečijeg pupka ili piješ 1",
     "Igrač preko puta tebe treba da te poljubi u vrat ili piješ 3",
     "Odglumi doggy pozu sa igračem prije sebe ili oboje pijete 2",
     "Nosiš grudnjak 3 kurga",
