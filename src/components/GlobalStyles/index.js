@@ -30,6 +30,10 @@ const GlobalStyles = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
     background-color: ${COLORS.brandBlack};
   }
+
+  #root {
+    min-height: -webkit-fill-available;
+  }
 `
 
 export default GlobalStyles
