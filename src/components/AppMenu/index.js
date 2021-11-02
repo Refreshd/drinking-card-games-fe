@@ -1,21 +1,21 @@
-import { useState } from 'react/cjs/react.development';
+// import { useState } from 'react/cjs/react.development';
 import Button from '../Button';
 import AppMenuWrap from './styles';
 
 const AppMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
-  const ToggleMenuVisibility = () => {
-    setIsOpen(!isOpen); 
-  };
+  // const ToggleMenuVisibility = () => {
+  //   setIsOpen(!isOpen); 
+  // };
 
   return (
     <>
-      <AppMenuWrap className={isOpen ? 'is-open' : null}>
+      <AppMenuWrap>
         <a href="/rules" title="Pravila">Pravila</a>
       </AppMenuWrap>
 
-      <Button onClick={ToggleMenuVisibility} color="ghost" display="mobile">☰</Button>
+      <Button color="ghost" display="mobile">☰</Button>
     </>
   )
 };
