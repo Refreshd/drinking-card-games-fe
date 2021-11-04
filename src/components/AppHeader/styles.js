@@ -1,13 +1,17 @@
 import styled from "styled-components";
-import { COLORS } from "../../constants/styles";
+import { COLORS, SCREENS } from "../../constants/styles";
 
 const HeaderWrap = styled.header`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   padding: 1rem;
   text-align: center;
+
+  @media (min-width: ${SCREENS.desktop}) {
+    justify-content: space-between;
+  }
 
   > h1 {
     color: ${COLORS.brandSecondary};

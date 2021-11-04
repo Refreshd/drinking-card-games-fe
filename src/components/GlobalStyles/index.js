@@ -19,7 +19,6 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    min-height: -webkit-fill-available;
     margin: 0;
     color: ${COLORS.brandWhite};
     font-size: ${FONTSIZES.base}rem;
@@ -29,10 +28,6 @@ const GlobalStyles = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: ${COLORS.brandBlack};
-  }
-
-  #root {
-    min-height: -webkit-fill-available;
   }
 `
 
